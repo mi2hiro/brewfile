@@ -97,7 +97,7 @@ brew libxrender
 brew libyaml
 brew libzip
 brew lua
-brew lua@5.3
+brew "lua@5.3"
 brew lz4
 brew lzo
 brew m4
@@ -106,7 +106,7 @@ brew mas
 brew maven
 brew mpdecimal
 brew mysql
-brew mysql@5.7
+brew "mysql@5.7"
 brew ncurses
 brew netpbm
 brew nettle
@@ -119,14 +119,12 @@ brew oniguruma
 brew openexr
 brew openjdk
 brew openldap
-brew openssl@1.1
-brew openssl@3
+brew "openssl@1.1"
+brew "openssl@3"
 brew p11-kit
 brew pango
 brew pcre
 brew pcre2
-brew php
-brew php-code-sniffer
 brew pinentry
 brew pipenv
 brew pixman
@@ -134,9 +132,7 @@ brew pkg-config
 brew protobuf
 brew pv
 brew pyenv
-brew python@3.10
-brew python@3.8
-brew python@3.9
+brew "python@3.10"
 brew readline
 brew reattach-to-user-namespace
 brew redis
