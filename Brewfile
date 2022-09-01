@@ -49,7 +49,6 @@ brew gts
 brew guile
 brew harfbuzz
 brew httpie
-brew hugo
 brew icu4c
 brew imath
 brew jansson
@@ -170,9 +169,10 @@ tap homebrew/services
 
 tap homebrew/cask
 cask alfred
+cask docker
+cask google-cloud-sdk
 cask iterm2
 cask microsoft-remote-desktop
-cask mysqlworkbench
 cask powershell
 cask sourcetree
 
