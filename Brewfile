@@ -48,6 +48,7 @@ brew 'grep'
 brew 'gts'
 brew 'guile'
 brew 'harfbuzz'
+brew 'highway'
 brew 'httpie'
 brew 'icu4c'
 brew 'imath'
@@ -95,6 +96,7 @@ brew 'libxext'
 brew 'libxrender'
 brew 'libyaml'
 brew 'libzip'
+brew 'little-cms2'
 brew 'lua'
 brew 'lua@5.3'
 brew 'lz4'
@@ -117,6 +119,7 @@ brew 'npth'
 brew 'oniguruma'
 brew 'openexr'
 brew 'openjdk'
+brew 'openjdk@17'
 brew 'openldap'
 brew 'openssl@1.1'
 brew 'openssl@3'
@@ -191,3 +194,10 @@ brew 'brew-file'
 
 tap 'songmu/tap'
 brew 'ecschedule'
+
+# App Store applications
+mas 'GarageBand (10.4.5)', id: 682658836
+mas 'iMovie (10.3.1)', id: 408981434
+mas 'Keynote (11.2)', id: 409183694
+mas 'Numbers (11.2)', id: 409203825
+mas 'Pages (11.2)', id: 409201541
