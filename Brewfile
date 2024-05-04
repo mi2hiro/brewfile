@@ -2,6 +2,7 @@
 # tap repositories and their packages
 
 tap 'homebrew/core'
+brew 'abseil'
 brew 'adns'
 brew 'aom'
 brew 'apr'
@@ -10,17 +11,22 @@ brew 'argon2'
 brew 'aspell'
 brew 'autoconf'
 brew 'automake'
+brew 'aws-sam-cli'
 brew 'awscli'
 brew 'bdw-gc'
 brew 'brotli'
 brew 'c-ares'
 brew 'ca-certificates'
 brew 'cairo'
+brew 'certifi'
+brew 'cffi'
 brew 'clingo'
 brew 'cmake'
 brew 'colordiff'
+brew 'cryptography'
 brew 'curl'
 brew 'docker'
+brew 'docker-completion'
 brew 'docker-compose'
 brew 'fontconfig'
 brew 'freetds'
@@ -57,6 +63,7 @@ brew 'jemalloc'
 brew 'jpeg-turbo'
 brew 'jpeg-xl'
 brew 'jq'
+brew 'jsoncpp'
 brew 'jsonnet'
 brew 'krb5'
 brew 'lazydocker'
@@ -131,9 +138,13 @@ brew 'pipenv'
 brew 'pixman'
 brew 'pkg-config'
 brew 'protobuf'
+brew 'protobuf@21'
 brew 'pv'
+brew 'pycparser'
 brew 'pyenv'
 brew 'python@3.10'
+brew 'python@3.11'
+brew 'python@3.12'
 brew 'python@3.8'
 brew 'python@3.9'
 brew 'readline'
@@ -162,10 +173,6 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 brew 'zstd'
 
-tap 'homebrew/bundle'
-
-tap 'homebrew/services'
-
 tap 'homebrew/cask'
 cask 'alfred'
 cask 'docker'
@@ -175,10 +182,13 @@ cask 'microsoft-remote-desktop'
 cask 'powershell'
 cask 'sourcetree'
 
+tap 'homebrew/bundle'
+
+tap 'homebrew/services'
+
 tap 'argon/mas'
 
 tap 'aws/tap'
-brew 'aws-sam-cli'
 
 tap 'gobuffalo/tap'
 brew 'buffalo'
@@ -195,8 +205,11 @@ tap 'songmu/tap'
 brew 'ecschedule'
 
 # App Store applications
-mas 'GarageBand (10.4.5)', id: 682658836
-mas 'iMovie (10.3.1)', id: 408981434
-mas 'Keynote (11.2)', id: 409183694
-mas 'Numbers (11.2)', id: 409203825
-mas 'Pages (11.2)', id: 409201541
+mas 'GarageBand (10.4.10)', id: 682658836
+mas 'iMovie (10.4)', id: 408981434
+mas 'Keynote (13.2)', id: 409183694
+mas 'Magnet (2.14.0)', id: 441258766
+mas 'Numbers (13.2)', id: 409203825
+mas 'Pages (13.2)', id: 409201541
+mas 'Slack (4.38.115)', id: 803453959
+mas 'Xcode (15.3)', id: 497799835
